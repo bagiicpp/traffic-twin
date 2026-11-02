@@ -1,12 +1,21 @@
-# Python
-.venv/
-__pycache__/
-*.py[cod]
+# TrafficTwin datasets
+detectors_public.csv
+links.csv
+luzern_calendar_2015.csv
+luzern_weather_2015.csv
+
+# Raw and processed datasets
+*.parquet
+data/raw/
+data/processed/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
 
 # Local configuration
 .env
-.env.*
-
-# Generated analysis outputs
-figures/
