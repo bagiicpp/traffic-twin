@@ -1,3 +1,27 @@
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
 # TrafficTwin datasets
 detectors_public.csv
 links.csv
@@ -5,17 +29,28 @@ luzern_calendar_2015.csv
 luzern_weather_2015.csv
 
 # Raw and processed datasets
-*.parquet
 data/raw/
 data/processed/
+*.parquet
 
-# Jupyter
-.ipynb_checkpoints/
+# Trained ML models
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.pt
+models/*.pth
+models/*.onnx
 
-# Python
-__pycache__/
-*.pyc
-.venv/
+# Generated analysis outputs
+figures/
+results/*
+!results/final_metrics.csv
+!results/.gitkeep
+outputs/
+logs/
 
-# Local configuration
-.env
+# Temporary files
+*.log
+*.tmp
+*.bak
+
