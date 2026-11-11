@@ -8,10 +8,13 @@ dependencies = [
     "folium>=0.20.0",
     "geopandas>=1.2.0",
     "ipykernel>=7.4.0",
+    "joblib>=1.6.0",
     "jupyterlab>=4.6.4",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
+    "pyarrow>=26.0.1",
+    "scikit-learn>=1.4",
     "scipy>=1.18.1",
     "seaborn>=0.13.2",
 ]
